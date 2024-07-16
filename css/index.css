@@ -1,0 +1,80 @@
+.title {
+    width: 100%;
+    padding-block: 12px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.title h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.about {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+li {
+    font-size: 16px;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+.ingredients {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.steps {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.footer {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: lightgray;
+    padding-block: 12px;
+    text-align: center;
+}
+
+a.footer, a.button {
+    margin-right: 200px;
+}
+
+.recipe {
+    border: 2px solid blue;
+    padding-block: 25px;
+}
+
+.ingredients, .steps {
+    color: darkslategray;
+}
