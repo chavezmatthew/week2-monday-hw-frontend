@@ -64,10 +64,26 @@ a:hover {
     background-color: lightgray;
     padding-block: 12px;
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 
-a.footer, a.button {
-    margin-right: 200px;
+.footer a {
+    width: 50%;
+    position: relative;
+    left: 100px;
+}
+
+.footer div {
+    width: 50%;
+    position: relative;
+    right: 100px;
+}
+
+.submit_form {
+    width: 250px;
 }
 
 .recipe {
